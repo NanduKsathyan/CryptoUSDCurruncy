@@ -1,0 +1,16 @@
+
+#container{
+	max-width: 90%; 
+	margin: 10px auto;
+	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+}
+.highcharts-title {
+    fill: #434348;
+    font-weight: bold;
+    font-size: 3em;
+}
+p{
+	text-align: center;
+	font-family: Arial !important;
+	font-size: 11px;
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<script type="text/javascript" src="./js/angular.min.js"></script>
+	<script type="text/javascript" src="./js/highcharts.js"></script>
+</head>
+<body ng-app="currencyRate" ng-clock>
+	<div ng-controller="currencyCtrl">
+		<div ng-bind = "message">
+        </div>
+        <!--Chart-->
+        <div id="container"></div>
+	</div>
+	<p>Note:- Every 5 minute Chart will update </p>
+	<script type="text/javascript" src="./js/controller.js"></script>
+</body>
+</html>
